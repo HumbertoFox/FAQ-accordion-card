@@ -1,0 +1,50 @@
+@media(max-width: 992px) {
+    .main {
+        width: 375px;
+        height: 100vh;
+        justify-content: start;
+        padding: 148px 25px;
+    }
+
+    .section-card {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        background-image: url(../images/bg-pattern-mobile.svg);
+        background-position: 50% 0%;
+        gap: 0px;
+        padding: 24px 24px 50px 24px;
+    }
+
+    .picture {
+        width: 237px;
+        position: relative;
+        margin: -132px 0 0 20px;
+    }
+
+    .picture::after {
+        content: "";
+    }
+
+    .div-questions h1 {
+        text-align: center;
+        font-size: 32px;
+        margin-top: 54px;
+        margin-bottom: 15px;
+    }
+
+    .ul-questions h2 {
+        font-size: 13px;
+        padding: 17px 0;
+    }
+
+    .ul-questions h2::after {
+        top: 16px;
+        right: 0px;
+    }
+
+    .ul-questions p {
+        width: 250px;
+        font-size: 12px;
+    }
+}

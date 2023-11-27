@@ -8,7 +8,7 @@ body {
 
 .main {
     width: 1440px;
-    height: 800px;
+    height: 768px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,6 +27,7 @@ body {
     background-position: 1255% 68%;
     gap: 88px;
     border-radius: 20px;
+    box-shadow: 0 1px 50px var(--Very-dark-desaturated-blue);
 }
 
 .picture {
@@ -64,6 +65,12 @@ body {
     color: var(--Dark-grayish-blue);
     letter-spacing: .08px;
     padding: 16px 0;
+    transition: .3s ease-in-out;
+    cursor: url(https://github.com/HumbertoFox/repository/assets/126817628/ef5feb7b-75d4-47ee-a596-7be253492ebd), auto;
+}
+
+.ul-questions h2:hover {
+    color: var(--Soft-red);
 }
 
 .ul-questions h2::after {
@@ -76,6 +83,7 @@ body {
 .ul-questions h2.active {
     font-weight: 700;
     padding-bottom: 10px;
+    color: var(--Very-dark-desaturated-blue);
 }
 
 .ul-questions h2.active::after {
